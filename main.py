@@ -13,7 +13,7 @@ match operacao:
         if num1 != 0:
             resultado = num1 / num2
         else:
-            resultado = float('inf')
+            resultado = float('0 dividido por qualquer numero é sempre 0')
     case _:
         resultado = 'Operação inválida'
 
